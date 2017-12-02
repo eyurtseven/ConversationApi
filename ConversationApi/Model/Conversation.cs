@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ConversationApi.Model
+{
+    public class Conversation
+    {
+        public Guid Id { get; set; }
+        public int ApplicationId { get; set; }
+        public long SenderId { get; set; }
+        public long ReceiverId { get; set; }
+        public string Subject { get; set; }
+        public DateTime CreateDate { get; set; }
+        public DateTime? LastModifyDate { get; set; }
+        public bool IsDeleted { get; set; }
+
+        public ICollection<ConversationMessage> ConversationMessages { get; set; }
+        
+    }
+}
