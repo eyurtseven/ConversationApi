@@ -7,10 +7,50 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="ResponseHelper" t="Include">
+            <e p="PaginationResponse.cs" t="Include" />
+          </e>
+          <e p="Settings" t="Include">
+            <e p="AppSettingsOptions.cs" t="Include" />
+          </e>
+        </e>
         <e p="Controllers" t="Include">
-          <e p="ValuesController.cs" t="Include" />
+          <e p="ApiController.cs" t="Include" />
+          <e p="ConversationController.cs" t="Include" />
         </e>
         <e p="ConversationApi.csproj" t="IncludeRecursive" />
+        <e p="Infrastructure" t="Include">
+          <e p="automapper" t="Include">
+            <e p="Configuration" t="Include">
+              <e p="AutoMapperConfig.cs" t="Include" />
+            </e>
+            <e p="MapperProfile" t="Include">
+              <e p="ServiceToClientMapperProfile.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DataContext" t="Include">
+            <e p="ConversationContext.cs" t="Include" />
+          </e>
+          <e p="Repository" t="Include">
+            <e p="Abstractions" t="Include">
+              <e p="IConversationMessageRepository.cs" t="Include" />
+              <e p="IConversationRepository.cs" t="Include" />
+              <e p="IRepository.cs" t="Include" />
+              <e p="IUnitOfWork.cs" t="Include" />
+            </e>
+            <e p="Implementations" t="Include">
+              <e p="ConversationMessageRepository.cs" t="Include" />
+              <e p="ConversationRepository.cs" t="Include" />
+              <e p="Repository.cs" t="Include" />
+              <e p="UnitOfWork.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Model" t="Include">
+          <e p="Conversation.cs" t="Include" />
+          <e p="ConversationMessage.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
@@ -19,8 +59,26 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="IConversationService.cs" t="Include" />
+          </e>
+          <e p="DTO" t="Include">
+            <e p="Request" t="Include">
+              <e p="GetConversationListRequest.cs" t="Include" />
+              <e p="IServiceRequest.cs" t="Include" />
+              <e p="PaginationRequest.cs" t="Include" />
+            </e>
+            <e p="Response" t="Include">
+              <e p="ConversationResponse.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Implementations" t="Include">
+            <e p="ConversationService.cs" t="Include" />
+          </e>
+          <e p="RequestValidator" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
-        <e p="wwwroot" t="Include" />
       </e>
       <e p="ConversationApi.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

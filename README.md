@@ -1,2 +1,4 @@
-# ConversationApi
-dotnet core 2.0 conversation api 
+# Conversation API
+- dotnet restore
+- dotnet run
+- http://localhost:5000/swagger/
