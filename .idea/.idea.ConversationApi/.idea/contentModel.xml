@@ -18,6 +18,7 @@
         <e p="Controllers" t="Include">
           <e p="ApiController.cs" t="Include" />
           <e p="ConversationController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
         </e>
         <e p="ConversationApi.csproj" t="IncludeRecursive" />
         <e p="Infrastructure" t="Include">
@@ -31,6 +32,15 @@
           </e>
           <e p="DataContext" t="Include">
             <e p="ConversationContext.cs" t="Include" />
+          </e>
+          <e p="ExceptionHandling" t="Include">
+            <e p="ApiError.cs" t="Include" />
+            <e p="ApiErrorDetail.cs" t="Include" />
+            <e p="ApiException.cs" t="Include" />
+            <e p="ErrorMessages.cs" t="Include" />
+          </e>
+          <e p="Filter" t="Include">
+            <e p="ApiExceptionFilter.cs" t="Include" />
           </e>
           <e p="Repository" t="Include">
             <e p="Abstractions" t="Include">

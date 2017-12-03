@@ -3,6 +3,7 @@ using AutoMapper;
 using ConversationApi.Common.Settings;
 using ConversationApi.Infrastructure.AutoMapper.Configuration;
 using ConversationApi.Infrastructure.DataContext;
+using ConversationApi.Infrastructure.Filter;
 using ConversationApi.Infrastructure.Repository.Abstractions;
 using ConversationApi.Infrastructure.Repository.Implementations;
 using ConversationApi.Services.Abstractions;
@@ -29,7 +30,10 @@ namespace ConversationApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(new ApiExceptionFilter());
+            });
             
             services.AddDbContext<ConversationContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));

@@ -1,3 +1,4 @@
+/Users/emre/Projects/ConversationApi/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.xml
 /Users/emre/Projects/ConversationApi/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.deps.json
 /Users/emre/Projects/ConversationApi/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.runtimeconfig.json
 /Users/emre/Projects/ConversationApi/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.runtimeconfig.dev.json
@@ -8,4 +9,3 @@
 /Users/emre/Projects/ConversationApi/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.AssemblyInfo.cs
 /Users/emre/Projects/ConversationApi/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.dll
 /Users/emre/Projects/ConversationApi/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.pdb
-/Users/emre/Projects/ConversationApi/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.xml
