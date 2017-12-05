@@ -28,7 +28,8 @@ namespace ConversationApi.Services.Implementations
             var conversationList =
                 _conversationRepository.GetConversations(
                     request.ApplicationId,
-                    request.SubscriberId,
+                    request.SenderId,
+                    request.RecipientId,
                     request.PageNumber,
                     request.PageSize);
             

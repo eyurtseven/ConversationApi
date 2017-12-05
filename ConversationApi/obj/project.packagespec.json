@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/emre/Projects/ConversationApi/ConversationApi/ConversationApi.csproj",
+    "projectUniqueName": "E:\\Codebase\\ConversationApi\\ConversationApi\\ConversationApi.csproj",
     "projectName": "ConversationApi",
-    "projectPath": "/Users/emre/Projects/ConversationApi/ConversationApi/ConversationApi.csproj",
-    "outputPath": "/Users/emre/Projects/ConversationApi/ConversationApi/obj/",
+    "projectPath": "E:\\Codebase\\ConversationApi\\ConversationApi\\ConversationApi.csproj",
+    "outputPath": "E:\\Codebase\\ConversationApi\\ConversationApi\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.0"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_ConversationApi.1325369730.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\eyurtseven\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_ConversationApi.936040911.00" t="ExcludeRecursive" />
+    <e p="E:\Codebase\ConversationApi" t="IncludeFlat">
       <e p="ConversationApi" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -86,7 +86,6 @@
           <e p="Implementations" t="Include">
             <e p="ConversationService.cs" t="Include" />
           </e>
-          <e p="RequestValidator" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>
