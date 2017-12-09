@@ -76,8 +76,9 @@
           <e p="DTO" t="Include">
             <e p="Request" t="Include">
               <e p="GetConversationListRequest.cs" t="Include" />
-              <e p="IServiceRequest.cs" t="Include" />
               <e p="PaginationRequest.cs" t="Include" />
+              <e p="PostConversationRequest.cs" t="Include" />
+              <e p="ServiceRequest.cs" t="Include" />
             </e>
             <e p="Response" t="Include">
               <e p="ConversationResponse.cs" t="Include" />

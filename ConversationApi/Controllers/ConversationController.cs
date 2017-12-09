@@ -1,4 +1,5 @@
-﻿using ConversationApi.Services.Abstractions;
+﻿using System;
+using ConversationApi.Services.Abstractions;
 using ConversationApi.Services.DTO.Request;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,5 +22,13 @@ namespace ConversationApi.Controllers
             var serviceResponse = _conversationService.GetConversationList(request);
             return ApiResponse(serviceResponse);
         }
+
+        [HttpPost]
+        [Route("conversations")]
+        public IActionResult Post(PostConversationRequest request)
+        {
+            throw new NotImplementedException();
+        }
+        
     }
 }
