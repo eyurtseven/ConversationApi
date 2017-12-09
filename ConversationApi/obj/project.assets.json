@@ -12768,8 +12768,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/emre/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/emre/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12780,11 +12779,8 @@
       "packagesPath": "/Users/emre/.nuget/packages/",
       "outputPath": "/Users/emre/Projects/ConversationApi/ConversationApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/emre/.nuget/NuGet/NuGet.Config"
+        "/Users/emre/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12796,11 +12792,6 @@
         "netcoreapp2.0": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
@@ -12808,8 +12799,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
+            "version": "2.0.0"
           },
           "AutoMapper": {
             "target": "Package",

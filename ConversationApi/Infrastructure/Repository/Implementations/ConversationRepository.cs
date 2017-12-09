@@ -15,7 +15,8 @@ namespace ConversationApi.Infrastructure.Repository.Implementations
 
         public PaginationResponse<Conversation> GetConversations(
             long applicationId, 
-            long subscriberId, 
+            long senderId, 
+            long recipientId, 
             int pageNumber,
             int pageSize)
         {
@@ -23,7 +24,8 @@ namespace ConversationApi.Infrastructure.Repository.Implementations
                 .Where(x =>
                     !x.IsDeleted &&
                     x.ApplicationId == applicationId &&
-                    (x.SenderId == subscriberId || x.ReceiverId == subscriberId))
+                    x.SenderId == senderId && 
+                    x.RecipientId == recipientId)
                 .OrderBy(x => x.CreateDate);
             
             var count = conversations.Count();

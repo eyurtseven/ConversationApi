@@ -87,7 +87,6 @@
           <e p="Implementations" t="Include">
             <e p="ConversationService.cs" t="Include" />
           </e>
-          <e p="RequestValidator" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

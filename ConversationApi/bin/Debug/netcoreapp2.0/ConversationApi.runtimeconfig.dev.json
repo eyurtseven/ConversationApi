@@ -1,9 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/emre/.dotnet/store/|arch|/|tfm|",
-      "/Users/emre/.nuget/packages",
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Users\\eyurtseven\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\eyurtseven\\.nuget\\packages"
     ]
   }
 }
