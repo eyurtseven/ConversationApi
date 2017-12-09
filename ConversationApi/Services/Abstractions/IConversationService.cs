@@ -7,5 +7,6 @@ namespace ConversationApi.Services.Abstractions
     public interface IConversationService
     {
         PaginationResponse<ConversationResponse> GetConversationList(GetConversationListRequest request);
+        ConversationResponse CreateConversation(PostConversationRequest request);
     }
 }

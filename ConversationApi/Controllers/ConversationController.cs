@@ -27,7 +27,8 @@ namespace ConversationApi.Controllers
         [Route("conversations")]
         public IActionResult Post(PostConversationRequest request)
         {
-            throw new NotImplementedException();
+            var serviceResponse = _conversationService.CreateConversation(request);
+            return ApiResponse(serviceResponse);
         }
         
     }

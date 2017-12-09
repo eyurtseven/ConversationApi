@@ -39,5 +39,10 @@ namespace ConversationApi.Services.Implementations
                 Items = conversationList.Items.ProjectTo<ConversationResponse>()
             };
         }
+
+        public ConversationResponse CreateConversation(PostConversationRequest request)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -41,7 +41,7 @@ namespace ConversationApi
             services.AddAutoMapper();
             services.AddSingleton(AutoMapperConfig.RegisterMappers().CreateMapper());
 
-            services.Configure<AppSettingsOptions>(Configuration.GetSection("AppSettings")); 
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings")); 
             
             services.AddSwaggerGen(c =>
             {
