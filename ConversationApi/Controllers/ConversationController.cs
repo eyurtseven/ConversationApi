@@ -30,6 +30,37 @@ namespace ConversationApi.Controllers
             var serviceResponse = _conversationService.CreateConversation(request);
             return ApiResponse(serviceResponse);
         }
-        
+
+        //[HttpGet]
+        //[Route("conversations")]
+        //public IActionResult Get(GetConversationListBySenderIdRequest request)
+        //{
+        //    var serviceResponse = _conversationService.GetConversationBySenderIdList(request);
+        //    return ApiResponse(serviceResponse);
+        //}
+
+        //[HttpGet]
+        //[Route("conversations")]
+        //public IActionResult Get(GetConversationListByCompanyIdRequest request)
+        //{
+        //    var serviceResponse = _conversationService.GetConversationByCompanyIdList(request);
+        //    return ApiResponse(serviceResponse);
+        //}
+
+        //[HttpGet]
+        //[Route("conversations")]
+        //public IActionResult Get(GetConversationListByRecipientIdAllRequest request)
+        //{
+        //    var serviceResponse = _conversationService.GetConversationByRecipientIdAllList(request);
+        //    return ApiResponse(serviceResponse);
+        //}
+
+        //[HttpGet]
+        //[Route("conversations")]
+        //public IActionResult Get(GetConversationListByRecipientIdRequest request)
+        //{
+        //    var serviceResponse = _conversationService.GetConversationByRecipientIdList(request);
+        //    return ApiResponse(serviceResponse);
+        //}
     }
 }

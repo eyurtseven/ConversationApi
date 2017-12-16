@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "942cf6a5287113403d2a0a1b4c4b35630d03a3a3"
+    "signature": "0fd4815d484371571ab644f24c89af884ac524b0"
   },
   "compilationOptions": {
     "defines": [
@@ -28,6 +28,7 @@
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.0.0",
+          "RabbitMQ.Client": "5.0.1",
           "Swashbuckle.AspNetCore": "1.1.0"
         },
         "runtime": {
@@ -2427,6 +2428,34 @@
         },
         "compile": {
           "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+        }
+      },
+      "RabbitMQ.Client/5.0.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Console": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Net.NameResolution": "4.3.0",
+          "System.Net.Security": "4.3.0",
+          "System.Net.Sockets": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Thread": "4.3.0",
+          "System.Threading.Timer": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {}
         }
       },
       "Remotion.Linq/2.1.1": {
@@ -5276,6 +5305,13 @@
       "sha512": "sha512-saKCNK8A5OW3sUhL/tvYqNyKUK7AbIQlZUVmjn4Fw9wstyopECeF/9Er1fexRLpWev0/H9fUzFclTrXm+omsag==",
       "path": "npgsql.entityframeworkcore.postgresql/2.0.0",
       "hashPath": "npgsql.entityframeworkcore.postgresql.2.0.0.nupkg.sha512"
+    },
+    "RabbitMQ.Client/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-89eFEAr5mV5GG2H3d4WFZEuhKmCR+EUjcphZ4+QLEkHPdo7B9kRH6X5WS0c6bHAY/B48uR0GuubnMTp5jGGmrA==",
+      "path": "rabbitmq.client/5.0.1",
+      "hashPath": "rabbitmq.client.5.0.1.nupkg.sha512"
     },
     "Remotion.Linq/2.1.1": {
       "type": "package",

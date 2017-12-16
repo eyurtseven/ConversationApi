@@ -4,5 +4,30 @@
         <name>ConversationApi</name>
     </assembly>
     <members>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationInfoRequest">
+            <summary>
+            Kaynak ve hedef arasındaki konuşma
+            </summary>
+        </member>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationListByCompanyIdRequest">
+            <summary>
+            İlgili şirkete ait bütün konuşmaları
+            </summary>
+        </member>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationListByRecipientIdAllRequest">
+            <summary>
+            Adayın bütün konuşmaları
+            </summary>
+        </member>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationListByRecipientIdRequest">
+            <summary>
+            Adayın ilgili firma ile bütün konuşmaları
+            </summary>
+        </member>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationListBySenderIdRequest">
+            <summary>
+            İligili şirkete ait sadece iligli kişinin konuşmaları
+            </summary>
+        </member>
     </members>
 </doc>

@@ -13,8 +13,9 @@ namespace ConversationApi.Model
         public DateTime CreateDate { get; set; }
         public DateTime? LastModifyDate { get; set; }
         public bool IsDeleted { get; set; }
+        public int CompanyId { get; set; }
 
         public ICollection<ConversationMessage> ConversationMessages { get; set; }
-        
+
     }
 }
