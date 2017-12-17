@@ -29,5 +29,10 @@
             İligili şirkete ait sadece iligli kişinin konuşmaları
             </summary>
         </member>
+        <member name="T:ConversationApi.Services.DTO.Request.GetConversationMessageListRequest">
+            <summary>
+            Mesaj listesi
+            </summary>
+        </member>
     </members>
 </doc>
