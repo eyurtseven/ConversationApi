@@ -12811,36 +12811,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\osman\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/emre/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\osman\\Documents\\ConversationApi\\ConversationApi\\ConversationApi.csproj",
+      "projectUniqueName": "/Users/emre/Projects/ConversationApi/ConversationApi/ConversationApi.csproj",
       "projectName": "ConversationApi",
-      "projectPath": "C:\\Users\\osman\\Documents\\ConversationApi\\ConversationApi\\ConversationApi.csproj",
-      "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\osman\\Documents\\ConversationApi\\ConversationApi\\obj\\",
+      "projectPath": "/Users/emre/Projects/ConversationApi/ConversationApi/ConversationApi.csproj",
+      "packagesPath": "/Users/emre/.nuget/packages/",
+      "outputPath": "/Users/emre/Projects/ConversationApi/ConversationApi/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/emre/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12857,34 +12849,34 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0.0",
+            "autoReferenced": true
+          },
           "AutoMapper": {
             "target": "Package",
-            "version": "[6.2.1, )"
+            "version": "6.2.1"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[3.2.0, )"
+            "version": "3.2.0"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "2.0.0"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
           },
           "RabbitMQ.Client": {
             "target": "Package",
-            "version": "[5.0.1, )"
+            "version": "5.0.1"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "1.1.0"
           }
         },
         "imports": [

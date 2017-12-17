@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -19,44 +20,42 @@ namespace ConversationApi.Infrastructure.Queue.Implementations
 
         public RabbitMQConversationQueue()
         {
-            var builder = new ConfigurationBuilder()
+            /*var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json");
 
             var config = builder.Build();
 
-            config.GetSection("App").Bind(_appSettings);
+            config.GetSection("AppSettings").Bind(_appSettings);*/
         }
-        
-        public RabbitMQConversationQueue(IOptions<AppSettings> options)
-        {
-            _appSettings = options.Value;
-        }
-        
+
         public override ConversationQueueResult Add(ConversationQueueRequest conversationQueueRequest)
         {
             var factory = new ConnectionFactory()
             {
-                UserName = _appSettings.RabbitMQUserName,
-                Password = _appSettings.RabbitMQPassword
-            }; 
-            
-            using (var connection = factory.CreateConnection(HostNameList))
+                HostName = "207.154.219.174",
+                Port = 5672,
+                VirtualHost = "/",
+                UserName = "user",
+                Password = "user"
+            };
+
+            using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
                 channel.QueueDeclare(
-                    queue: _appSettings.ConversationQueueName,
+                    queue: "ConversationQueueName-DEV",
                     durable: true,
                     exclusive: false,
                     autoDelete: false,
                     arguments: null);
- 
+
                 var properties = channel.CreateBasicProperties();
                 properties.Persistent = true;
 
                 channel.BasicPublish(
                     exchange: "",
-                    routingKey: _appSettings.ConversationQueueName,
+                    routingKey: "ConversationQueueName-DEV",
                     basicProperties: properties,
                     body: Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(conversationQueueRequest)));
             }
@@ -66,9 +65,12 @@ namespace ConversationApi.Infrastructure.Queue.Implementations
         private List<string> HostNameList
         {
             get
-            {    
-                var hostNameList = new List<string>();
-
+            {
+                var hostNameList = new List<string>()
+                {
+                    "207.154.219.174"
+                };
+                return hostNameList;
                 if (_appSettings.RabbitMQHostNameList.Contains(";"))
                 {
                     hostNameList = _appSettings.RabbitMQHostNameList.Split(';').ToList();
@@ -81,6 +83,5 @@ namespace ConversationApi.Infrastructure.Queue.Implementations
                 return hostNameList;
             }
         }
-        
     }
 }

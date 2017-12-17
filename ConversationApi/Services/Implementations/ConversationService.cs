@@ -1,5 +1,8 @@
-﻿using AutoMapper.QueryableExtensions;
+﻿using System;
+using AutoMapper.QueryableExtensions;
 using ConversationApi.Common.ResponseHelper;
+using ConversationApi.Infrastructure.Queue.DTO;
+using ConversationApi.Infrastructure.Queue.Implementations;
 using ConversationApi.Infrastructure.Repository.Abstractions;
 using ConversationApi.Services.Abstractions;
 using ConversationApi.Services.DTO.Request;
@@ -77,7 +80,32 @@ namespace ConversationApi.Services.Implementations
 
         public ConversationResponse CreateConversation(PostConversationRequest request)
         {
-            throw new System.NotImplementedException();
+            var queueManager = new ConversationQueueManager(new RabbitMQConversationQueueFactory());
+
+            var conversationId = Guid.NewGuid();
+            var creationDate = DateTime.Now;
+            
+            queueManager.Enqueue(new ConversationQueueRequest
+            {
+                ConversationId = conversationId,
+                ApplicationId = request.ApplicationId,
+                CompanyId = request.CompanyId,
+                SenderId = request.SenderId,
+                RecipientId = request.RecipientId,
+                JobId = request.JobId,
+                Subject = request.Subject,
+                IsPrivate = request.IsPrivate,
+                CreationDate = creationDate
+            });
+            
+            return new ConversationResponse
+            {
+                Id = conversationId,
+                SenderId = request.SenderId,
+                RecipientId = request.RecipientId,
+                Subject = request.Subject,
+                CreateDate = creationDate
+            };
         }
     }
 }

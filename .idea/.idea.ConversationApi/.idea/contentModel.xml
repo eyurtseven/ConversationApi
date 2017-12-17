@@ -12,7 +12,7 @@
             <e p="PaginationResponse.cs" t="Include" />
           </e>
           <e p="Settings" t="Include">
-            <e p="AppSettingsOptions.cs" t="Include" />
+            <e p="AppSettings.cs" t="Include" />
           </e>
         </e>
         <e p="Controllers" t="Include">
@@ -42,6 +42,21 @@
           <e p="Filter" t="Include">
             <e p="ApiExceptionFilter.cs" t="Include" />
           </e>
+          <e p="Queue" t="Include">
+            <e p="Abstractions" t="Include">
+              <e p="ConversationQueue.cs" t="Include" />
+              <e p="ConversationQueueFactory.cs" t="Include" />
+            </e>
+            <e p="DTO" t="Include">
+              <e p="ConversationQueueRequest.cs" t="Include" />
+              <e p="ConversationQueueResult.cs" t="Include" />
+            </e>
+            <e p="Implementations" t="Include">
+              <e p="ConversationQueueManager.cs" t="Include" />
+              <e p="RabbitMQConversationQueue.cs" t="Include" />
+              <e p="RabbitMQConversationQueueFactory.cs" t="Include" />
+            </e>
+          </e>
           <e p="Repository" t="Include">
             <e p="Abstractions" t="Include">
               <e p="IConversationMessageRepository.cs" t="Include" />
@@ -69,12 +84,20 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
         <e p="Services" t="Include">
           <e p="Abstractions" t="Include">
             <e p="IConversationService.cs" t="Include" />
           </e>
           <e p="DTO" t="Include">
             <e p="Request" t="Include">
+              <e p="GetConversationInfoRequest .cs" t="Include" />
+              <e p="GetConversationListByCompanyIdRequest.cs" t="Include" />
+              <e p="GetConversationListByRecipientIdAllRequest.cs" t="Include" />
+              <e p="GetConversationListByRecipientIdRequest.cs" t="Include" />
+              <e p="GetConversationListBySenderIdRequest.cs" t="Include" />
               <e p="GetConversationListRequest.cs" t="Include" />
               <e p="PaginationRequest.cs" t="Include" />
               <e p="PostConversationRequest.cs" t="Include" />
