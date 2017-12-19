@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using RestSharp;
 
 namespace Conversation.Consumer
 {
@@ -19,6 +21,7 @@ namespace Conversation.Consumer
 
         private static void Consume()
         {
+            //TODO : Konfigürasyondan oku
             var connection = new ConnectionFactory
                 {
                     HostName = "207.154.219.174",
@@ -32,16 +35,27 @@ namespace Conversation.Consumer
             using (var channel = connection.CreateModel())
             {
                 var consumer = new EventingBasicConsumer(channel);
-                consumer.Received += (sender, args) =>
-                {
-                    var body = args.Body;
-                    var message = Encoding.UTF8.GetString(body);
-
-                    Console.WriteLine(message);
-                };
+                consumer.Received += OnConsumerOnReceived;
                 channel.BasicConsume("ConversationQueueName-DEV", true, consumer);
                 Console.ReadLine();
             }
+        }
+
+        private static void OnConsumerOnReceived(object sender, BasicDeliverEventArgs args)
+        {
+            var body = args.Body;
+            var message = Encoding.UTF8.GetString(body);
+
+            Task.Run(() => SendToStorage(message));
+        }
+        
+        private static void SendToStorage(string message)
+        {
+            //TODO : Konfigürasyondan oku
+            var client = new RestClient("http://localhost:4000/");
+            var request = new RestRequest("api/v1/conversations", Method.POST);
+            request.AddJsonBody(message);
+            client.Execute(request);
         }
     }
 }

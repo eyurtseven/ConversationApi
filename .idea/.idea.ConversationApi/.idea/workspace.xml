@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a6027b-3bb9-4c3f-8282-62c8f2b6ae2c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.dll" afterPath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.pdb" afterPath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/obj/Conversation.Consumer.csproj.nuget.cache" afterPath="$PROJECT_DIR$/Conversation.Consumer/obj/Conversation.Consumer.csproj.nuget.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/obj/Debug/netcoreapp2.0/Conversation.Consumer.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/Conversation.Consumer/obj/Debug/netcoreapp2.0/Conversation.Consumer.csprojResolveAssemblyReference.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.cache" afterPath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.csproj.CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.dll" afterPath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.pdb" afterPath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ConversationApi/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ConversationApi/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ConversationApi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ConversationApi/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/Conversation.Consumer.csproj" afterPath="$PROJECT_DIR$/Conversation.Consumer/Conversation.Consumer.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/Program.cs" afterPath="$PROJECT_DIR$/Conversation.Consumer/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/obj/project.assets.json" afterPath="$PROJECT_DIR$/Conversation.Consumer/obj/project.assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conversation.Consumer/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/Conversation.Consumer/obj/project.packagespec.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi.sln" afterPath="$PROJECT_DIR$/ConversationApi.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.runtimeconfig.dev.json" afterPath="$PROJECT_DIR$/ConversationApi/bin/Debug/netcoreapp2.0/ConversationApi.runtimeconfig.dev.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.g.props" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.g.targets" afterPath="$PROJECT_DIR$/ConversationApi/obj/ConversationApi.csproj.nuget.g.targets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ConversationApi/obj/Debug/netcoreapp2.0/ConversationApi.csproj.FileListAbsolute.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/project.assets.json" afterPath="$PROJECT_DIR$/ConversationApi/obj/project.assets.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversationApi/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/ConversationApi/obj/project.packagespec.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +24,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConversationController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conversation.ServiceHost.Internal/Controllers/ConversationController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <marker date="1513703861851" expanded="false" signature="6:128" ph="..." />
+                <marker date="1513703861851" expanded="true" signature="185:433" ph="{...}" />
+                <marker date="1513703861851" expanded="true" signature="262:431" ph="{...}" />
+                <marker date="1513703861851" expanded="true" signature="356:425" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conversation.Consumer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="55" column="79" lean-forward="true" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+              <folding>
+                <marker date="1513704629266" expanded="true" signature="6:168" ph="..." />
+                <marker date="1513704629266" expanded="true" signature="201:1808" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="221:1806" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="275:431" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="470:1188" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="590:808" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="905:1178" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="1281:1445" ph="{...}" />
+                <marker date="1513704629266" expanded="true" signature="1512:1800" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ConversationController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+            <state relative-caret-position="420">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <marker date="1513695570190" expanded="false" signature="6:134" ph="..." />
                 <marker date="1513695570190" expanded="true" signature="173:2296" ph="{...}" />
@@ -40,93 +72,6 @@
                 <marker date="1513695570190" expanded="true" signature="605:759" ph="{...}" />
                 <marker date="1513695570190" expanded="true" signature="879:1032" ph="{...}" />
                 <marker date="1513695570190" expanded="true" signature="1042:2288" ph="/* [HttpGet] ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversationService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConversationApi/Services/Implementations/ConversationService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-              <folding>
-                <marker date="1513604087782" expanded="false" signature="6:400" ph="..." />
-                <marker date="1513604087782" expanded="true" signature="452:5007" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="514:5005" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="888:1070" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="1183:1622" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="1467:1611" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="1755:2183" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="2028:2172" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="2318:2729" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="2574:2718" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="2874:3292" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="3137:3281" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="3431:3865" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="3710:3854" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="3954:4999" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="4248:4683" ph="{...}" />
-                <marker date="1513604087782" expanded="true" signature="4755:4988" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConversationQueueManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/ConversationQueueManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <marker date="1513604109054" expanded="false" signature="6:104" ph="..." />
-                <marker date="1513604109054" expanded="true" signature="168:657" ph="{...}" />
-                <marker date="1513604109054" expanded="true" signature="212:655" ph="{...}" />
-                <marker date="1513604109054" expanded="true" signature="373:461" ph="{...}" />
-                <marker date="1513604109054" expanded="true" signature="560:649" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conversation.Consumer/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <marker date="1513698270153" expanded="true" signature="6:121" ph="..." />
-                <marker date="1513698270153" expanded="true" signature="154:1296" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="174:1294" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="228:384" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="423:1288" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="501:719" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="816:1278" ph="{...}" />
-                <marker date="1513698270153" expanded="true" signature="952:1144" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMQConversationQueue.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/RabbitMQConversationQueue.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="40" column="13" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <marker date="1513604109122" expanded="false" signature="6:388" ph="..." />
-                <marker date="1513604109122" expanded="true" signature="452:2822" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="517:2820" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="618:916" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="641:906" ph="/* var builder = new ConfigurationBuilder() ... */" />
-                <marker date="1513604109122" expanded="true" signature="1020:2178" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="1093:1287" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="1412:2086" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="2221:2814" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="2247:2804" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="2332:2389" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="2496:2622" ph="{...}" />
-                <marker date="1513604109122" expanded="true" signature="2643:2752" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -150,54 +95,53 @@
     <setting file="file://$PROJECT_DIR$/ConversationApi/obj/project.packagespec.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Model/Conversation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Model/ConversationMessage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/RabbitMQConversationQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Common/ResponseHelper/PaginationResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Conversation.Consumer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/PaginationRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Response/ConversationResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/DTO/ConversationQueueRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/Abstractions/IConversationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/Implementations/ConversationService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Controllers/ApiController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/AutoMapper/Configuration/AutoMapperConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/AutoMapper/MapperProfile/ServiceToClientMapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/DataContext/ConversationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Conversation.ServiceHost.Internal/Controllers/ConversationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/RabbitMQConversationQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/DTO/ConversationQueueResult.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Abstractions/ConversationQueueFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Abstractions/ConversationQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/RabbitMQConversationQueueFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Conversation.Consumer/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/ConversationQueueManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/PaginationRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Response/ConversationResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/DTO/ConversationQueueRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/Abstractions/IConversationService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListByCompanyIdRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/ServiceRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Services/Implementations/ConversationService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Controllers/ApiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListByRecipientIdAllRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListBySenderIdRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/PostConversationRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Services/DTO/Request/GetConversationListByRecipientIdRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/AutoMapper/Configuration/AutoMapperConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/AutoMapper/MapperProfile/ServiceToClientMapperProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Common/Settings/AppSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Filter/ApiExceptionFilter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IUnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/ExceptionHandling/ErrorMessages.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/ExceptionHandling/ApiException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/ExceptionHandling/ApiErrorDetail.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/Repository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/ExceptionHandling/ApiError.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/DataContext/ConversationContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ConversationApi/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/DataContext/ConversationContext.cs" />
-        <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/IConversationMessageRepository.cs" />
         <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/IConversationRepository.cs" />
         <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationMessageRepository.cs" />
         <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationMessageRepository.cs" />
@@ -246,6 +190,8 @@
         <option value="$PROJECT_DIR$/ConversationApi/Infrastructure/Queue/Implementations/RabbitMQConversationQueue.cs" />
         <option value="$PROJECT_DIR$/ConversationApi/Startup.cs" />
         <option value="$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs" />
+        <option value="$PROJECT_DIR$/Conversation.ServiceHost.Internal/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Conversation.ServiceHost.Internal/Controllers/ConversationController.cs" />
         <option value="$PROJECT_DIR$/Conversation.Consumer/Program.cs" />
       </list>
     </option>
@@ -256,9 +202,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -280,7 +226,28 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ConversationApi (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ConversationApi (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ConversationApi (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Conversation.Consumer" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ConversationApi (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Conversation.ServiceHost.Internal" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ConversationApi (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Conversation.ServiceHost.Internal" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ConversationApi (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ConversationApi" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -363,7 +330,9 @@
       <workItem from="1512819791992" duration="603000" />
       <workItem from="1513519556774" duration="3503000" />
       <workItem from="1513604102850" duration="3003000" />
-      <workItem from="1513695520824" duration="2681000" />
+      <workItem from="1513695520824" duration="4131000" />
+      <workItem from="1513703444363" duration="253000" />
+      <workItem from="1513703726685" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="readme file changes">
       <created>1512244741809</created>
@@ -376,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22160000" />
+    <option name="totallyTimeSpent" value="24817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,22 +357,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33101392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33101392" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27345416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33101392" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35376343" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27665246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3976143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3976143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -462,32 +432,6 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Conversation.Consumer/Program.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/Conversation.Consumer/Program.cs">
-            <startOffsets>
-              <startOffset value="847" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="897" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Conversation.Consumer/Program.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/Conversation.Consumer/Program.cs">
-            <startOffsets>
-              <startOffset value="1033" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1077" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="15" />
     </breakpoint-manager>
@@ -500,13 +444,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Abstractions/IConversationMessageRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConversationApi/Infrastructure/Repository/Implementations/ConversationMessageRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -752,10 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1513604087760" expanded="true" signature="53:118" ph="/// Adayın bütün konuşmaları ... " />
-            <marker date="1513604087760" expanded="true" signature="198:256" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,11 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1513604087763" expanded="true" signature="46:315" ph="{...}" />
-            <marker date="1513604087763" expanded="true" signature="53:135" ph="/// Adayın ilgili firma ile bütün konuşmaları ... " />
-            <marker date="1513604087763" expanded="true" signature="212:313" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,10 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1513604087769" expanded="true" signature="46:259" ph="{...}" />
-            <marker date="1513604087769" expanded="true" signature="112:257" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -786,11 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1513604087758" expanded="true" signature="46:262" ph="{...}" />
-            <marker date="1513604087758" expanded="true" signature="53:130" ph="/// İlgili şirkete ait bütün konuşmaları ... " />
-            <marker date="1513604087758" expanded="true" signature="205:260" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,11 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1513604087766" expanded="true" signature="46:321" ph="{...}" />
-            <marker date="1513604087766" expanded="true" signature="53:147" ph="/// İligili şirkete ait sadece iligli kişinin konuşmaları ... " />
-            <marker date="1513604087766" expanded="true" signature="221:319" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,20 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding>
-            <marker date="1513695571561" expanded="false" signature="6:737" ph="..." />
-            <marker date="1513695571561" expanded="true" signature="764:3250" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="791:3248" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="850:913" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="1136:2079" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="1185:1276" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="1715:2027" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="2267:2775" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="2314:2391" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="2447:2583" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="2649:2763" ph="{...}" />
-            <marker date="1513695571561" expanded="true" signature="2851:3242" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,12 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512372581061" expanded="false" signature="6:255" ph="..." />
-            <marker date="1512372581061" expanded="true" signature="282:603" ph="{...}" />
-            <marker date="1512372581061" expanded="true" signature="309:601" ph="{...}" />
-            <marker date="1512372581061" expanded="true" signature="362:420" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,29 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="53" lean-forward="false" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <marker date="1513604087794" expanded="true" signature="27:149" ph="{...}" />
-            <marker date="1513604087794" expanded="true" signature="170:368" ph="{...}" />
-            <marker date="1513604087794" expanded="true" signature="385:639" ph="{...}" />
-            <marker date="1513604087794" expanded="true" signature="462:514" ph="{...}" />
-            <marker date="1513604087794" expanded="true" signature="571:623" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding>
-            <marker date="1513695570190" expanded="false" signature="6:134" ph="..." />
-            <marker date="1513695570190" expanded="true" signature="173:2296" ph="{...}" />
-            <marker date="1513695570190" expanded="true" signature="253:2294" ph="{...}" />
-            <marker date="1513695570190" expanded="true" signature="408:484" ph="{...}" />
-            <marker date="1513695570190" expanded="true" signature="605:759" ph="{...}" />
-            <marker date="1513695570190" expanded="true" signature="879:1032" ph="{...}" />
-            <marker date="1513695570190" expanded="true" signature="1042:2288" ph="/* [HttpGet] ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,25 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
-          <folding>
-            <marker date="1513604087782" expanded="false" signature="6:400" ph="..." />
-            <marker date="1513604087782" expanded="true" signature="452:5007" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="514:5005" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="888:1070" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="1183:1622" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="1467:1611" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="1755:2183" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="2028:2172" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="2318:2729" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="2574:2718" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="2874:3292" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="3137:3281" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="3431:3865" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="3710:3854" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="3954:4999" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="4248:4683" ph="{...}" />
-            <marker date="1513604087782" expanded="true" signature="4755:4988" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,13 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <marker date="1513604109054" expanded="false" signature="6:104" ph="..." />
-            <marker date="1513604109054" expanded="true" signature="168:657" ph="{...}" />
-            <marker date="1513604109054" expanded="true" signature="212:655" ph="{...}" />
-            <marker date="1513604109054" expanded="true" signature="373:461" ph="{...}" />
-            <marker date="1513604109054" expanded="true" signature="560:649" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,7 +761,6 @@
           <caret line="40" column="13" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
           <folding>
             <marker date="1513604109122" expanded="false" signature="6:388" ph="..." />
-            <marker date="1513604109122" expanded="true" signature="452:2822" ph="{...}" />
             <marker date="1513604109122" expanded="true" signature="517:2820" ph="{...}" />
             <marker date="1513604109122" expanded="true" signature="618:916" ph="{...}" />
             <marker date="1513604109122" expanded="true" signature="641:906" ph="/* var builder = new ConfigurationBuilder() ... */" />
@@ -932,19 +776,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConversationApi/Controllers/ConversationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1513695570190" expanded="false" signature="6:134" ph="..." />
+            <marker date="1513695570190" expanded="true" signature="173:2296" ph="{...}" />
+            <marker date="1513695570190" expanded="true" signature="253:2294" ph="{...}" />
+            <marker date="1513695570190" expanded="true" signature="408:484" ph="{...}" />
+            <marker date="1513695570190" expanded="true" signature="605:759" ph="{...}" />
+            <marker date="1513695570190" expanded="true" signature="879:1032" ph="{...}" />
+            <marker date="1513695570190" expanded="true" signature="1042:2288" ph="/* [HttpGet] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Conversation.Consumer/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="456">
+          <caret line="55" column="79" lean-forward="true" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
           <folding>
-            <marker date="1513698270153" expanded="true" signature="6:121" ph="..." />
-            <marker date="1513698270153" expanded="true" signature="154:1296" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="174:1294" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="228:384" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="423:1288" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="501:719" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="816:1278" ph="{...}" />
-            <marker date="1513698270153" expanded="true" signature="952:1144" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="6:168" ph="..." />
+            <marker date="1513704629266" expanded="true" signature="201:1808" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="221:1806" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="275:431" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="470:1188" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="590:808" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="905:1178" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="1281:1445" ph="{...}" />
+            <marker date="1513704629266" expanded="true" signature="1512:1800" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conversation.ServiceHost.Internal/Controllers/ConversationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <marker date="1513703861851" expanded="false" signature="6:128" ph="..." />
+            <marker date="1513703861851" expanded="true" signature="185:433" ph="{...}" />
+            <marker date="1513703861851" expanded="true" signature="262:431" ph="{...}" />
+            <marker date="1513703861851" expanded="true" signature="356:425" ph="{...}" />
           </folding>
         </state>
       </provider>
