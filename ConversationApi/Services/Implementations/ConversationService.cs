@@ -84,7 +84,7 @@ namespace ConversationApi.Services.Implementations
 
             var conversationId = Guid.NewGuid();
             var creationDate = DateTime.Now;
-            
+
             queueManager.Enqueue(new ConversationQueueRequest
             {
                 ConversationId = conversationId,
@@ -97,7 +97,7 @@ namespace ConversationApi.Services.Implementations
                 IsPrivate = request.IsPrivate,
                 CreationDate = creationDate
             });
-            
+
             return new ConversationResponse
             {
                 Id = conversationId,
