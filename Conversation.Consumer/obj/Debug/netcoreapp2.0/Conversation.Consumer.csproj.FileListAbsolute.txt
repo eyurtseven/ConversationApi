@@ -1,0 +1,11 @@
+E:\Codebase\ConversationApi\Conversation.Consumer\bin\Debug\netcoreapp2.0\Conversation.Consumer.deps.json
+E:\Codebase\ConversationApi\Conversation.Consumer\bin\Debug\netcoreapp2.0\Conversation.Consumer.runtimeconfig.json
+E:\Codebase\ConversationApi\Conversation.Consumer\bin\Debug\netcoreapp2.0\Conversation.Consumer.runtimeconfig.dev.json
+E:\Codebase\ConversationApi\Conversation.Consumer\bin\Debug\netcoreapp2.0\Conversation.Consumer.dll
+E:\Codebase\ConversationApi\Conversation.Consumer\bin\Debug\netcoreapp2.0\Conversation.Consumer.pdb
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.csprojResolveAssemblyReference.cache
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.csproj.CoreCompileInputs.cache
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.AssemblyInfoInputs.cache
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.AssemblyInfo.cs
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.dll
+E:\Codebase\ConversationApi\Conversation.Consumer\obj\Debug\netcoreapp2.0\Conversation.Consumer.pdb
