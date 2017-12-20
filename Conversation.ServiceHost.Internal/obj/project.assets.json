@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Elasticsearch.Net/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "NETStandard.Library": "1.6.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Elasticsearch.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Elasticsearch.Net.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -2670,6 +2688,23 @@
           }
         }
       },
+      "NEST/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Elasticsearch.Net": "[5.5.0, 6.0.0)",
+          "NETStandard.Library": "1.6.0",
+          "Newtonsoft.Json": "[10.0.0, 11.0.0)",
+          "System.Collections.Specialized": "4.3.0",
+          "System.Linq.Queryable": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Nest.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Nest.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -4750,6 +4785,21 @@
     }
   },
   "libraries": {
+    "Elasticsearch.Net/5.5.0": {
+      "sha512": "AS/kE59g2AgnW3TBIMXQEjBr1EwxGxT+wOJK/btXSCPmwnkC4FaT6Sv/4GW+2MriTE7FfWokzSUY3HtHMoob+Q==",
+      "type": "package",
+      "path": "elasticsearch.net/5.5.0",
+      "files": [
+        "elasticsearch.net.5.5.0.nupkg.sha512",
+        "elasticsearch.net.nuspec",
+        "lib/net45/Elasticsearch.Net.dll",
+        "lib/net45/Elasticsearch.Net.xml",
+        "lib/net46/Elasticsearch.Net.dll",
+        "lib/net46/Elasticsearch.Net.xml",
+        "lib/netstandard1.3/Elasticsearch.Net.dll",
+        "lib/netstandard1.3/Elasticsearch.Net.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -7390,6 +7440,21 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "NEST/5.5.0": {
+      "sha512": "KWETb7Y4r5YYvEJALBZgYUhnUUgHZdt6DmDWbu1kKpVEM6o8PXOkC3/Q/D0npLue6UKZDT6FWX8ygZobnbK0Qw==",
+      "type": "package",
+      "path": "nest/5.5.0",
+      "files": [
+        "lib/net45/Nest.dll",
+        "lib/net45/Nest.xml",
+        "lib/net46/Nest.dll",
+        "lib/net46/Nest.xml",
+        "lib/netstandard1.3/Nest.dll",
+        "lib/netstandard1.3/Nest.xml",
+        "nest.5.5.0.nupkg.sha512",
+        "nest.nuspec"
       ]
     },
     "NETStandard.Library/2.0.0": {
@@ -12529,28 +12594,32 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "NEST >= 5.5.0"
     ]
   },
   "packageFolders": {
-    "/Users/emre/.nuget/packages/": {}
+    "C:\\Users\\eyurtseven\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/Conversation.ServiceHost.Internal.csproj",
+      "projectUniqueName": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\Conversation.ServiceHost.Internal.csproj",
       "projectName": "Conversation.ServiceHost.Internal",
-      "projectPath": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/Conversation.ServiceHost.Internal.csproj",
-      "packagesPath": "/Users/emre/.nuget/packages/",
-      "outputPath": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/",
+      "projectPath": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\Conversation.ServiceHost.Internal.csproj",
+      "packagesPath": "C:\\Users\\eyurtseven\\.nuget\\packages\\",
+      "outputPath": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/emre/.config/NuGet/NuGet.Config"
+        "C:\\Users\\eyurtseven\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\ntserver\\sharedtoall\\NugetServer": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12569,6 +12638,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "NEST": {
+            "target": "Package",
+            "version": "5.5.0"
           }
         },
         "imports": [
@@ -12578,5 +12651,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "NEST 5.5.0 depends on Newtonsoft.Json (>= 10.0.0 && < 11.0.0) but Newtonsoft.Json 10.0.0 was not found. An approximate best match of Newtonsoft.Json 10.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

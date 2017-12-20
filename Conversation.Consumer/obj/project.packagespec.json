@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
+    "projectUniqueName": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\Conversation.Consumer.csproj",
     "projectName": "Conversation.Consumer",
-    "projectPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
-    "outputPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/obj/",
+    "projectPath": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\Conversation.Consumer.csproj",
+    "outputPath": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.0"

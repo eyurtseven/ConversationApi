@@ -4207,24 +4207,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/emre/.nuget/packages/": {}
+    "C:\\Users\\eyurtseven\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
+      "projectUniqueName": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\Conversation.Consumer.csproj",
       "projectName": "Conversation.Consumer",
-      "projectPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
-      "packagesPath": "/Users/emre/.nuget/packages/",
-      "outputPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/obj/",
+      "projectPath": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\Conversation.Consumer.csproj",
+      "packagesPath": "C:\\Users\\eyurtseven\\.nuget\\packages\\",
+      "outputPath": "E:\\Codebase\\ConversationApi\\Conversation.Consumer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/emre/.config/NuGet/NuGet.Config"
+        "C:\\Users\\eyurtseven\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\ntserver\\sharedtoall\\NugetServer": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
