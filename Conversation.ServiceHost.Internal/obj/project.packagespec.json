@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\Conversation.ServiceHost.Internal.csproj",
+    "projectUniqueName": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/Conversation.ServiceHost.Internal.csproj",
     "projectName": "Conversation.ServiceHost.Internal",
-    "projectPath": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\Conversation.ServiceHost.Internal.csproj",
-    "outputPath": "E:\\Codebase\\ConversationApi\\Conversation.ServiceHost.Internal\\obj\\",
+    "projectPath": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/Conversation.ServiceHost.Internal.csproj",
+    "outputPath": "/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.0"

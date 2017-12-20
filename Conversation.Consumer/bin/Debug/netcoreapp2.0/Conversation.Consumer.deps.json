@@ -1,14 +1,15 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "66f9058e296d8b50bac82c5a4d3c7e6028329cad"
+    "signature": "57ef49900940e36fed5e33eaf35c1489872e1c0b"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Conversation.Consumer/1.0.0": {
         "dependencies": {
-          "RabbitMQ.Client": "5.0.1"
+          "RabbitMQ.Client": "5.0.1",
+          "RestSharp": "106.1.0"
         },
         "runtime": {
           "Conversation.Consumer.dll": {}
@@ -43,6 +44,11 @@
         },
         "runtime": {
           "lib/netstandard1.5/RabbitMQ.Client.dll": {}
+        }
+      },
+      "RestSharp/106.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -714,6 +720,13 @@
       "sha512": "sha512-89eFEAr5mV5GG2H3d4WFZEuhKmCR+EUjcphZ4+QLEkHPdo7B9kRH6X5WS0c6bHAY/B48uR0GuubnMTp5jGGmrA==",
       "path": "rabbitmq.client/5.0.1",
       "hashPath": "rabbitmq.client.5.0.1.nupkg.sha512"
+    },
+    "RestSharp/106.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USW0EIglmRPpBjLSO8WhdpxAkgJOiJ+7ubBqe4jSwYyzyq7ftIeiJg8H+fxMSO3msYW4jbXhhupehF8pPngWWA==",
+      "path": "restsharp/106.1.0",
+      "hashPath": "restsharp.106.1.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

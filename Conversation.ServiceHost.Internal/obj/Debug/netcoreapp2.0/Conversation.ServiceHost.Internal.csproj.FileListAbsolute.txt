@@ -1,0 +1,10 @@
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/bin/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.deps.json
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/bin/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.runtimeconfig.json
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/bin/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.runtimeconfig.dev.json
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/bin/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.dll
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/bin/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.pdb
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.csproj.CoreCompileInputs.cache
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.AssemblyInfoInputs.cache
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.AssemblyInfo.cs
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.dll
+/Users/emre/Projects/ConversationApi/Conversation.ServiceHost.Internal/obj/Debug/netcoreapp2.0/Conversation.ServiceHost.Internal.pdb
