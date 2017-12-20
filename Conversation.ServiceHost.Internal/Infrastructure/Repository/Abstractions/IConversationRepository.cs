@@ -1,6 +1,6 @@
 ﻿namespace Conversation.ServiceHost.Internal.Infrastructure.Repository.Abstractions
 {
-    public interface IConversationRepository : IRepository<Model.Conversation>
+    public interface IConversationRepository  : INoSqlDataRepository<Model.Conversation>
     {
         
     }

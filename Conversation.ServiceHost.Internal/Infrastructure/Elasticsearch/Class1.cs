@@ -9,7 +9,7 @@ namespace Conversation.ServiceHost.Internal.Infrastructure.Elasticsearch
         {
             //TODO : Configten al
             var settings = new ConnectionSettings(new Uri("http://95.85.40.160:9200/"));
-            settings.DefaultIndex("Conversations");
+            settings.DefaultIndex("conversations");
             var client = new ElasticClient(settings);
             return client;
         }

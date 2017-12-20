@@ -17,7 +17,36 @@ namespace Conversation.ServiceHost.Internal.Services.Implementations
 
         public ConversationResponse CreateConversation(PostConversationRequest request)
         {
-            throw new System.NotImplementedException();
+            _conversationRepository.Index(new Model.Conversation
+            {
+                Id = request.ConversationId.ToString(),
+                ApplicationId = request.ApplicationId,
+                CompanyId = request.CompanyId,
+                SenderId = request.SenderId,
+                RecipientId = request.RecipientId,
+                Subject = request.Subject,
+                JobId = request.JobId,
+                IsPrivate = request.IsPrivate,
+                IsDeleted = false,
+                CreateDate = request.CreateDate,
+                LastModifyDate = request.LastModifyDate
+            });
+            
+            return new ConversationResponse
+            {
+                Id = request.ConversationId,
+                ApplicationId = request.ApplicationId,
+                CompanyId = request.CompanyId,
+                SenderId = request.SenderId,
+                RecipientId = request.RecipientId,
+                Subject = request.Subject,
+                JobId = request.JobId,
+                IsPrivate = request.IsPrivate,
+                IsDeleted = false,
+                CreateDate = request.CreateDate,
+                LastModifyDate = request.LastModifyDate   
+            };
+            
         }
  
     }

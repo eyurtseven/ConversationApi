@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Conversation.ServiceHost.Internal.Services.Abstractions;
+using Conversation.ServiceHost.Internal.Services.DTO.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Conversation.ServiceHost.Internal.Controllers
 {
     [Route("api/v1")]
-    public class ConversationController : Controller
+    public class ConversationController : ApiController
     {
         
         private readonly IConversationService _conversationService;
@@ -20,9 +21,10 @@ namespace Conversation.ServiceHost.Internal.Controllers
         
         [HttpPost]
         [Route("conversations")]
-        public IActionResult Post()
+        public IActionResult Post(PostConversationRequest request)
         {
-            throw new NotImplementedException();
+            var serviceResponse = _conversationService.CreateConversation(request);
+            return ApiResponse(serviceResponse);
         }
     }
 }
