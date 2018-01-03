@@ -82,6 +82,7 @@ namespace ConversationApi
             services.AddScoped<IConversationRepository, ConversationRepository>();
             services.AddScoped<IConversationMessageRepository, ConversationMessageRepository>();
             services.AddScoped<IConversationService, ConversationService>();
+            services.AddScoped<IConversationMessageService, ConversationMessageService>();
         }
     }
 }
