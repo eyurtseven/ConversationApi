@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
+    "projectName": "Conversation.Consumer",
+    "projectPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/Conversation.Consumer.csproj",
+    "outputPath": "/Users/emre/Projects/ConversationApi/Conversation.Consumer/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "5.0.1"
+        },
+        "RestSharp": {
+          "target": "Package",
+          "version": "106.1.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
