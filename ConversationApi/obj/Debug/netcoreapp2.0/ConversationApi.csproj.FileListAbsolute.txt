@@ -32,4 +32,3 @@ C:\Users\osman\Documents\ConversationApi\ConversationApi\obj\Debug\netcoreapp2.0
 C:\Users\osman\Documents\ConversationApi\ConversationApi\obj\Debug\netcoreapp2.0\ConversationApi.AssemblyInfo.cs
 C:\Users\osman\Documents\ConversationApi\ConversationApi\obj\Debug\netcoreapp2.0\ConversationApi.dll
 C:\Users\osman\Documents\ConversationApi\ConversationApi\obj\Debug\netcoreapp2.0\ConversationApi.pdb
-C:\Users\osman\Documents\ConversationApi\ConversationApi\obj\Debug\netcoreapp2.0\ConversationApi.csprojResolveAssemblyReference.cache
